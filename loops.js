@@ -33,6 +33,6 @@ var doWhileLoop = array => {
 
         array = array.pop()
 
-  } while (maybeTrue())
+  } while (array.length && maybeTrue())
 
 }
