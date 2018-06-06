@@ -28,10 +28,11 @@ var whileLoop = n => {
 function maybeTrue() {
   return Math.random() >= 0.5
 }
+
 var doWhileLoop = array => {
   do {
 
 
-  } while (array.length && maybeTrue())
+  } while (array.length > 0 && maybeTrue())
 
 }
