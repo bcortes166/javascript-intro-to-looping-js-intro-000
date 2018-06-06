@@ -29,9 +29,10 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 
+
 var doWhileLoop = array => {
   do {
-
+    let l = array.length
     array.length = array.length -1
 
   } while (array.length > 0 && maybeTrue())
