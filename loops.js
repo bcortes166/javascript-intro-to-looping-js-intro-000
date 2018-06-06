@@ -34,7 +34,7 @@ var doWhileLoop = array => {
   do {
 
     var arrayLength = array.length
-
+    array.length = arraylength - 1
   } while (array.length > 0 && maybeTrue())
 
 }
