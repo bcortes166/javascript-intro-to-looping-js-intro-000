@@ -33,7 +33,8 @@ function maybeTrue() {
 var doWhileLoop = array => {
   do {
     let l = array.length
-    array.length = array.length -1
+    l = l - 1
+    array.length = l
 
   } while (array.length > 0 && maybeTrue())
 
